@@ -13,6 +13,8 @@
                     Command="{Binding SystemDateUpdateButton}"/>
             <Button Content="Show view A"
                     Command="{Binding ShowViewAButton}"/>
+            <Button Content="Show view A パラメータあり"
+                    Command="{Binding ShowViewPButton}"/>
             <ContentControl prism:RegionManager.RegionName="ContentRegion" />
         </StackPanel>
     </Grid>
